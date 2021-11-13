@@ -178,7 +178,7 @@ async function run() {
             const updateDoc = {
                 $set: {
                     name: updatedProduct.name,
-                    band: updatedProduct.email,
+                    band: updatedProduct.band,
                     imageUrl: updatedProduct.imageUrl,
                     price: updatedProduct.price,
                     warranty: updatedProduct.warranty,
